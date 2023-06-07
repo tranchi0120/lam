@@ -1,0 +1,32 @@
+.header {
+  height: 691px;
+  width: 100%;
+  background-image: url("../images/backgroundHeader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  // &-image {
+  //   position: relative;
+  //   z-index: -1;
+  //   height: 100%;
+  //   width: 100%;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   object-fit: fill;
+  // }
+  &-top {
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  &-menu {
+    position: relative;
+    top: 76px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}

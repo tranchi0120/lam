@@ -1,0 +1,45 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 46px;
+  font-family: $font-merriweather;
+  &-link {
+    font-size: 14px;
+    line-height: 18.2px;
+    font-weight: 700;
+    color: $color-white;
+  }
+  &-logo {
+    display: block;
+    width: 120px;
+    height: 120px;
+    &__image {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &-search {
+    display: flex;
+    &__icon {
+      width: 40px;
+      height: 39px;
+      background: #eeeeee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none !important;
+      outline: none !important;
+      border-radius: 6px 0px 0px 6px;
+    }
+    &__input {
+      width: 132px;
+      height: 39px;
+      border-radius: 0px 6px 6px 0px;
+      background: #ffffff;
+      border: none !important;
+      outline: none !important;
+      padding: 0 7px;
+    }
+  }
+}

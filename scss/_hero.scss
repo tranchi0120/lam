@@ -1,0 +1,61 @@
+.hero {
+  &-main {
+    margin-top: -460px;
+  }
+  &-name,
+  &-nameCity {
+    text-align: center;
+    color: $color-white;
+  }
+  &-name {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 500;
+    font-family: $font-roboto;
+  }
+  &-nameCity {
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 77.93px;
+    font-family: $font-merriweather;
+    margin-top: 25px;
+  }
+  &-btn {
+    margin-top: 50px !important;
+  }
+  &-bottom {
+    margin-top: 135px;
+    padding: 30px 40px;
+    height: 186px;
+    background: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+  }
+  &-box {
+    display: flex;
+    gap: 17px;
+    width: 337px;
+    height: 124px;
+    font-family: $font-roboto;
+    &__date {
+      font-size: 14px;
+      line-height: 18.2px;
+      font-weight: 400;
+      color: $color-text;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 130%;
+      color: #031739;
+      margin-top: 16px;
+      width: 192px;
+    }
+  }
+  &-box:nth-child(1),
+  &-box:nth-child(2) {
+    border-right: 0.5px solid #000000;
+  }
+}
