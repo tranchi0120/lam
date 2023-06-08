@@ -1,0 +1,57 @@
+.destination {
+  margin-top: 72px;
+  &-content {
+    margin-top: 48px;
+    display: flex;
+    gap: 21px;
+  }
+  &-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &-box {
+    background: $bgr-destination;
+    &__title {
+      padding-top: 17px;
+      padding-left: 10px;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: $font-merriweather;
+      color: $color-white;
+    }
+    &__text {
+      padding-top: 17px;
+      padding-left: 10px;
+      font-weight: 400;
+      font-size: 16px;
+      color: $color-white;
+      font-family: $font-roboto;
+      border: none !important;
+      line-height: 20.8px;
+      margin-top: 10px;
+    }
+    &__link {
+      font-weight: 700;
+      font-size: 20px;
+      color: $color-white;
+      font-family: $font-roboto;
+      margin-top: 12px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    &__intro {
+      font-weight: 400;
+      font-size: 16px;
+      color: $color-white;
+      font-family: $font-merriweather;
+      width: 206px;
+    }
+  }
+  &-boxs {
+    background: $bgr-destination;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

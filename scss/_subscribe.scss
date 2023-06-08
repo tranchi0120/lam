@@ -1,0 +1,29 @@
+.subscribe {
+  background: #fafafa;
+  margin-top: 72px;
+  padding: 26px 0;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: $font-merriweather;
+    color: $color-black;
+  }
+  &-text {
+    width: 621px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: $font-roboto;
+    color: $color-black;
+    line-height: 20.8px;
+    margin-top: 8px;
+  }
+  &-btn {
+    margin-top: 28px !important;
+  }
+}
