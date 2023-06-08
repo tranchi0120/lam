@@ -1,0 +1,65 @@
+.cuture {
+  padding: 72px 0;
+  background: rgba(255, 205, 57, 0.5);
+  &-content {
+    margin-top: 48px;
+    display: flex;
+    gap: 20px;
+  }
+  &-left {
+    &__date {
+      font-size: 14px;
+      font-weight: 400;
+      color: $color-text;
+      font-family: $font-roboto;
+      margin-top: 20px;
+    }
+    &__title {
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 45px;
+      color: $color-title;
+      font-family: $font-merriweather;
+    }
+    &__text {
+      width: 758px;
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: $color-text;
+      font-family: $font-roboto;
+    }
+  }
+  &-box {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #000;
+    &__title {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      color: $color-title;
+      font-family: $font-merriweather;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: 8px;
+      color: $color-text;
+    }
+    &__link {
+      display: block;
+      margin-top: 12px !important;
+    }
+    &__btn {
+      margin-top: 40px !important;
+    }
+  }
+  &-box:nth-child(2) {
+    margin-top: 24px;
+    border-bottom: 1px solid rgba(119, 119, 119, 0.4);
+  }
+}

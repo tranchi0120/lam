@@ -1,0 +1,22 @@
+.header {
+  height: 691px;
+  width: 100%;
+  background-image: url("../images/backgroundHeader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  &-top {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  &-menu {
+    position: relative;
+    top: 76px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}

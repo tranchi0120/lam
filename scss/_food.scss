@@ -1,0 +1,50 @@
+.food {
+  margin-top: 72px;
+  &-content {
+    margin-top: 47px;
+    display: flex;
+    gap: 20px;
+  }
+  &-left {
+    width: 570px;
+    &__title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      font-family: $font-merriweather;
+      color: #000000;
+      margin-top: 12px;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 16px;
+      color: $color-text;
+      margin-top: 6px;
+    }
+  }
+  &-box {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(119, 119, 119, 0.1);
+    &__title {
+      font-weight: 700;
+      font-size: 18px;
+      color: $color-title;
+      font-family: $font-merriweather;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 16px;
+      font-family: $font-roboto;
+      margin-top: 18px;
+      color: $color-text;
+    }
+  }
+  &-box:nth-child(n + 2) {
+    margin-top: 16px;
+  }
+  &-btn {
+    margin-top: 40px !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
