@@ -45,3 +45,31 @@ a {
   font-family: $font-roboto;
   color: #212529;
 }
+
+.scroll-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  width: 40px;
+  height: 40px;
+  background: $color-title;
+  color: #ffffff;
+  border-radius: 10px;
+  position: fixed;
+  bottom: -20%;
+  right: 30px;
+  transition: 0.4s;
+  z-index: 10;
+  visibility: hidden;
+}
+
+.show-scroll {
+  bottom: 50px;
+  visibility: visible;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
