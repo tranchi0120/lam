@@ -7,14 +7,14 @@
   }
   &-bottom {
     margin-top: 48px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
     gap: 20px;
   }
   &-box {
     &__img {
-      width: 373px;
-      height: 266px;
+      // width: 373px;
+      // height: 266px;
 
       img {
         width: 100%;
