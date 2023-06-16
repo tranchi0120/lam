@@ -1,4 +1,6 @@
 .hero {
+  position: relative;
+
   &-main {
     margin-top: -460px;
   }
@@ -24,6 +26,7 @@
     margin-top: 50px !important;
   }
   &-bottom {
+    overflow: hidden;
     margin-top: 135px;
     padding: 30px 40px;
     height: 186px;
@@ -59,4 +62,10 @@
   &-box:nth-child(2) {
     border-right: 0.5px solid #000000;
   }
+}
+.hero {
+  visibility: initial;
+  opacity: initial;
+  transform: initial;
+  transition: initial;
 }

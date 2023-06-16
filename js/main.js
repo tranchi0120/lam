@@ -1,9 +1,11 @@
+
 const scrollTop = () => {
     const scrollTop = document.getElementById("scroll-top");
     if (window.scrollY >= 560) scrollTop.classList.add("show-scroll");
     else scrollTop.classList.remove("show-scroll");
 };
 
+// animation using ScrollReveal
 window.addEventListener("scroll", scrollTop);
 
 const sr__top = ScrollReveal({
@@ -35,3 +37,28 @@ sr__left.reveal(
         interval: 200,
     }
 )
+
+// menuMobile
+const openMenu = document.querySelector('.icon-open')
+const closeMenu = document.querySelector('.icon-close')
+const headerMenu = document.querySelector('.header-menu')
+
+openMenu.addEventListener('click', () => {
+    headerMenu.classList.add('menuMobile')
+})
+closeMenu.addEventListener('click', () => {
+    headerMenu.classList.remove('menuMobile')
+})
+
+//  scrollbar using swiperjs
+const heroswiper = new Swiper(".swiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    spaceBetween: 32,
+    coverflowEffect: {
+        rotate: 0,
+    },
+});

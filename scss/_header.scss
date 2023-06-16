@@ -7,16 +7,34 @@
   background-position: bottom;
   &-top {
     background: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
   }
-  &-menu {
-    position: relative;
-    top: 76px;
+  &-nav {
+    // position: relative;
+    // top: 76px;
+    margin-top: 16px;
     align-items: center;
     display: flex;
     justify-content: space-between;
   }
+  &-menu {
+    display: flex;
+    gap: 70px;
+  }
+}
+
+.icon-open,
+.icon-close {
+  font-size: 45px;
+  cursor: pointer;
+  display: none;
+  color: $color-white;
+}
+
+.icon-open:hover,
+.icon-close:hover {
+  color: $color-red;
 }
